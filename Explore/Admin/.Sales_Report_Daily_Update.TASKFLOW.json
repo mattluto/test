@@ -1,0 +1,71 @@
+{
+  "objectInfo" : {
+    "id" : "dSzqlyh6C8yf9R2oku9pUC",
+    "name" : "Sales_Report_Daily_Update",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "tmuOSSHCwkNmumf-gt-714725-2024-03-05T16:59:39.319Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2024-03-05T17:00:10.347Z",
+  "objectRefs" : [ {
+    "id" : "1Imy8FLrut0gPKy0oA6Q0q",
+    "name" : "mt_Sales_Report_Update",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T5J0Z000000000022"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Admin"
+  }, {
+    "id" : "5kLdGgvw36Ndvthi7VSoCV",
+    "name" : "mt_Load_orders_to_MySQL",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T5J0Z000000000021"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/Admin"
+  } ]
+}
