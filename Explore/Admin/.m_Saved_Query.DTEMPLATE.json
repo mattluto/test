@@ -17,13 +17,13 @@
       } ],
       "additionalInfo" : {
         "description" : "",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-03-05T16:38:28.344Z",
+  "updateTime" : "2024-03-05T16:53:08.802Z",
   "objectRefs" : [ {
     "id" : "91ohv7V4YIohfsdY6UyXo9",
     "name" : "MySQL_CDI_Student",
