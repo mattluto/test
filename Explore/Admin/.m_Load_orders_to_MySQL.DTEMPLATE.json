@@ -17,13 +17,13 @@
       } ],
       "additionalInfo" : {
         "description" : "Loads an orders file into the Dunder Mifflin Database",
-        "contentType" : null,
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2024-03-05T17:17:46.767Z",
+  "updateTime" : "2024-03-26T20:09:57.303Z",
   "objectRefs" : [ {
     "id" : "9oDXMZXmhA7dcRlRL5s74j",
     "name" : "MySQL_Prod",
