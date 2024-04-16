@@ -1,0 +1,85 @@
+{
+  "objectInfo" : {
+    "id" : "5I2vuzGyqrpk5SV8S6ao42",
+    "name" : "DTT_Test",
+    "type" : "DTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "1FRHfB9LSMCgHSnd82Aqig"
+      },
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Simple Data Transfer Task pulling from two flat files and joining on custID field ",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "updateTime" : "2024-04-16T19:13:08.387Z",
+  "objectRefs" : [ {
+    "id" : "8dVFTiffE8lkZT3uAgM88P",
+    "name" : "Demo_cluster",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T5J25000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "bvUPmKHeKIXeHTNeougYcq",
+    "name" : "CDI_Folder",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T5J0B00000000000S"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "978k4dyl2jIhDxEkMH4zwV",
+    "name" : "Flatfile",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010T5J0B00000000000F"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "Flat File from my desktop",
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
